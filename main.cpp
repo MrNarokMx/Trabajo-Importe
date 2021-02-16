@@ -12,7 +12,7 @@ int main()
 
     if(impbruto<0)
         {
-        cout<<"no es valida, tiene que ser más"<<endl;
+        cout<<"el importe es menor al minimo necesario, el importe debe ser mayor a ####"<<endl;
         }
 
     else
@@ -20,7 +20,7 @@ int main()
     {
         impuesto=impbruto*.16;
         importe_neto=impbruto+impuesto;
-        cout<<"Su impuesto vendría siendo de: $"<< impuesto<<endl;
+        cout<<"Su impuesto vendrÃ­a siendo de: $"<< impuesto<<endl;
         cout<<"Su Importe neto total es de: $"<<importe_neto<<endl;
     }
 
@@ -28,7 +28,7 @@ int main()
     {
         impuesto=impbruto*.10;
         importe_neto=impbruto+impuesto;
-        cout<<"Su impuesto vendría siendo de: $"<< impuesto<<endl;
+        cout<<"Su impuesto vendrÃ­a siendo de: $"<< impuesto<<endl;
         cout<<"Su Importe neto total es de: $"<<importe_neto<<endl;
     }
 
